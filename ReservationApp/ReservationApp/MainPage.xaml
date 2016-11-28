@@ -7,7 +7,10 @@
   <Label Text="Select date:"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
-  <DatePicker></DatePicker>
+  <DatePicker VerticalOptions="CenterAndExpand" Date="{x:Static sys:DateTime.Now}">
+  </DatePicker>
+  <EntryCell Label="Book by:"></EntryCell>
+  <EntryCell Label="Court number:"></EntryCell>
 </StackLayout>
   
 </ContentPage>
